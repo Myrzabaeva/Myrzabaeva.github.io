@@ -8,7 +8,7 @@ margin: 0;
 padding: 0;
 }
 #mainmenu {
-background: #444;
+background:#B34EE9;
 position: relative;
 overflow:hidden;
 height:40px;
@@ -32,12 +32,12 @@ margin:0 10px;
 height:40px
 }
 #mainmenu ul li a {
-color: #fff;
-display:block;
+color: #000000;
+display: block;
 text-decoration:none;
 padding:0 15px;
 line-height: 40px;
 }
 #mainmenu ul li a:hover {
-background-color:#666; 
+background-color: #D0FF00; 
 }
