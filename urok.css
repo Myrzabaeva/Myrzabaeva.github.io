@@ -1,0 +1,42 @@
+ *, *::after, *::before {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-o-box-sizing: border-box;
+-ms-box-sizing: border-box;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}  
+body { /*это для фона на странице*/
+ background-image:url("../images/back.jpg"); 
+  background-size: 100%;
+}
+   .outline { /*служит для границы вокруг текстового блока*/
+    border: 3px solid red;
+    padding: 0 10px;
+  text-align: center
+   }
+
+.menu{
+  float: right;
+} 
+.menu li{
+  list-style-type: none;
+}
+
+
+
+
+
+.pic { /*флеш-игра*/
+  width: 300px;
+  height: 300px;
+  border-color: #14C4FF;
+  border-style: solid;
+  border-radius: 20px;
+}
+
+.pic:hover { /*флеш-игра*/
+  border-color: #F7FF14;
+  
+}
